@@ -1,0 +1,47 @@
+.section-about{
+    background-color:#fdc044;
+    margin:0 15%;
+    margin-top: 11%;
+    padding: 0;
+    box-sizing: border-box;
+    @include border;
+    
+}
+
+.section-team{
+    background-color:#021128 ;
+    display: block;
+    margin-top:15%;
+    padding: 5% 0 10% 0;
+    
+    transform: skewY(-3deg);
+    
+    &>*{
+        transform: skewY(3deg);
+    }
+
+    @include border;
+    box-sizing: border-box;
+    
+    
+
+    .section-team-content{
+        transform: skewY(3deg);
+    }
+}
+
+.footer{
+    
+    margin-top: -1rem;
+    position: relative;
+    box-sizing: border-box;
+    
+}
+
+.contact{
+    margin-top: 0.1rem;
+    width: 20%;
+    padding-top: 2%;
+    padding-left: 20%;
+}
+

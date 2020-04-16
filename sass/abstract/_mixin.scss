@@ -1,0 +1,31 @@
+@mixin clearfix{
+    &::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+}
+
+@mixin line {
+    font-size: 2rem;
+    line-height: 2.7rem;
+    font-weight: 300;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: left;
+    letter-spacing: 0.1rem;
+
+
+    
+}
+
+@mixin skew {
+    background-image: linear-gradient(to right, #d30624,#021128);
+    -webkit-background-clip: text;
+    color:transparent;
+    
+}
+
+@mixin border{
+    border-radius:0.5rem ;
+     box-shadow: 0rem 0rem 2rem rgba(black,3 );
+}
